@@ -1,0 +1,130 @@
+/*****************************Universal Styling*********************************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*****************************Mobile Universal Styling*********************************************************************/
+
+
+.mobile {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+/*****************************Mobile Top Header Styling*********************************************************************/
+
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 90px;
+    background-color: #ffffff;
+}
+
+.header img {
+    width: 28%;
+    height: auto;
+    max-width: 100%;
+}
+
+/*****************************Mobile Search Results Styling*********************************************************************/
+
+.search-results {
+    height: 130px;
+    background-color: #38B873;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.search-results-top {
+    font-family: 'poppins', 'sans-serif';
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.search-results-bottom {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 100;
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/*****************************Mobile First Image Styling*********************************************************************/
+
+
+.first-image {
+    height: 130px;
+    background-image: url(IMG/top-photo-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*****************************Mobile Zip Code Form Styling*********************************************************************/
+
+
+.zip-form {
+    text-align: center;
+    padding: 2rem 4rem;
+}
+
+.input_style {
+    width: 100%;
+    height: 39px;
+    border-radius: 50px;
+    border: 1px solid #707171;
+}
+
+#AddMoreFileId {
+    padding-top: 1rem;
+    text-align: right;
+    display: block;
+}
+
+#AddMoreFileBox {
+    background-color: #38B873;
+    padding: 0.3rem 1rem;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    color: #ffffff;
+    display: inline-block;
+}
