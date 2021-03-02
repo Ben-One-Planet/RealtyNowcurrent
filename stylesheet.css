@@ -11,6 +11,12 @@ a {
     text-decoration: none;
 }
 
+button {
+    border: none;
+    background: none;
+    outline: none;
+}
+
 
 /*****************************Mobile Universal Styling*********************************************************************/
 
@@ -135,6 +141,14 @@ a {
     border-radius: 50px;
     border: 1px solid #707171;
     margin: 10px 0;
+    outline: none;
+    text-align: center;
+    font-size: 1rem;
+    color: #707171;
+}
+
+.input_style:focus {
+    border: 1px solid #04813E;
 }
 
 #AddMoreFileId {
@@ -176,20 +190,45 @@ a {
     padding-top: 0;
 }
 
+.type-button-wrapper {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
 
+.ind-btn-wrapper {
+    text-align: center;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 1.5rem;
+    border: 1px solid #707171;
+}
 
+.ind-btn-wrapper.active {
+    background: #04813E;
+    border: 1px solid #04813E;
+}
 
+.ind-btn-wrapper.active i {
+    color: white;
+}
 
+.ind-btn-wrapper.active p {
+    color: white;
+}
 
+.ind-btn-wrapper p {
+    color: #707171;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    padding: 0.1rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.ind-btn-wrapper i {
+    color: #707171;
+    font-size: 1.5rem;
+}
