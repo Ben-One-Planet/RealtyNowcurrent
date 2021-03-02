@@ -21,6 +21,30 @@ a {
     background-color: #F5F5F5;
 }
 
+.mobile h2 {
+    font-family: 'poppins', 'sans-serif';
+    font-size: 18px;
+    text-align: center;
+    padding: 1.5rem 1rem 1rem 1rem;
+    color: #707171;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+.mobile h2 span {
+    color: #04813E;
+    font-weight: bold;
+}
+
+.section-break {
+    text-align: center;
+    padding: 36px 0;
+}
+
+.section-break img {
+    width: 80%;
+}
+
 /*****************************Mobile Top Header Styling*********************************************************************/
 
 
@@ -52,7 +76,7 @@ a {
 
 .search-results {
     height: 130px;
-    background-color: #38B873;
+    background-color: #04813E;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -102,7 +126,7 @@ a {
 
 .zip-form {
     text-align: center;
-    padding: 1.5rem 3rem;
+    padding: 0 3rem 0 3rem;
 }
 
 .input_style {
@@ -120,7 +144,7 @@ a {
 }
 
 #AddMoreFileBox {
-    background-color: #38B873;
+    background-color: #04813E;
     padding: 0.3rem 1rem;
     font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
@@ -143,3 +167,29 @@ a {
         width: 7%;
     }
 }
+
+
+/*****************************Type of Home Form Styling*********************************************************************/
+
+
+.type-of-home h2 {
+    padding-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
