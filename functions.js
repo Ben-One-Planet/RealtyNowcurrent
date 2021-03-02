@@ -13,7 +13,7 @@ $(document).ready(function () {
         if (x <= MaxInputs) {
             FieldCount++; //text box added ncrement
             //add input box
-            $(InputsWrapper).append('<div><input type="text" name="mytext[]" class="input_style" id="field_' + FieldCount + '"/> <a href="#" class="removeclass">Remove</a></div>');
+            $(InputsWrapper).append('<div><input type="text" name="mytext[]" class="input_style" id="field_' + FieldCount + '"/> <a href="#" class="removeclass"><img src="IMG/form-delete.png" /></a></div>');
             x++; //text box increment
 
             $("#AddMoreFileId").show();

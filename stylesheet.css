@@ -102,7 +102,7 @@ a {
 
 .zip-form {
     text-align: center;
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
 }
 
 .input_style {
@@ -110,10 +110,11 @@ a {
     height: 39px;
     border-radius: 50px;
     border: 1px solid #707171;
+    margin: 10px 0;
 }
 
 #AddMoreFileId {
-    padding-top: 1rem;
+    padding-top: 0.6rem;
     text-align: right;
     display: block;
 }
@@ -127,4 +128,12 @@ a {
     font-size: 0.8rem;
     color: #ffffff;
     display: inline-block;
+}
+
+.removeclass img {
+    width: 5%;
+    height: auto;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 10px;
 }
