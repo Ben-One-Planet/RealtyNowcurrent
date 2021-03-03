@@ -191,7 +191,7 @@ button {
 }
 
 .type-button-wrapper {
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -231,4 +231,78 @@ button {
 .ind-btn-wrapper i {
     color: #707171;
     font-size: 1.5rem;
+}
+
+
+/*****************************Price Range Styling*********************************************************************/
+
+
+.price-range h2 {
+    padding-top: 0;
+}
+
+.price-range-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+}
+
+.price-number-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0.7rem;
+}
+
+.price-number-wrapper p {
+    color: #707171;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.irs {
+    font-family: 'Noto Sans TC', sans-serif !important;
+}
+
+.irs--big .irs-from,
+.irs--big .irs-to,
+.irs--big .irs-single {
+    color: #04813E !important;
+    text-shadow: none;
+    padding: 0.2rem;
+    background-color: #FFF !important;
+    background: #FFF !important;
+    border-radius: 0px !important;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.irs--big .irs-bar {
+    top: 33px;
+    height: 12px;
+    background-color: #04813E !important;
+    border: none !important;
+    background: #04813E !important;
+    box-shadow: none;
+}
+
+.irs--big .irs-line {
+    top: 33px;
+    height: 12px;
+    background-color: #FFF !important;
+    background: #FFF !important;
+    border: none !important;
+    border-radius: 12px;
+}
+
+.irs--big .irs-handle {
+    top: 25px;
+    width: 30px;
+    height: 30px;
+    border: none !important;
+    background-color: #04813E !important;
+    background: #04813E !important;
+    box-shadow: none !important;
+    border-radius: 30px;
 }

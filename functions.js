@@ -57,3 +57,19 @@ for (var i = 0; i < btns.length; i++) {
         this.className += " active";
     });
 }
+
+
+$(document).ready(function () {
+    $(".js-range-slider").ionRangeSlider({
+        type: "double",
+        min: 100000,
+        max: 1000000,
+        hide_min_max: true,
+        from: 150000,
+        to: 850000,
+        grid: false,
+        skin: "big",
+        step: 50000,
+        force_edges: true
+    });
+});
