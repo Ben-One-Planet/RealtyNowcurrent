@@ -47,7 +47,7 @@ $(document).ready(function () {
 });
 
 
-// Add active class to the current button (highlight it)
+// Toggle active state for house and condo section
 var header = document.getElementById("buttonDIV");
 var btns = header.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
@@ -58,6 +58,35 @@ for (var i = 0; i < btns.length; i++) {
     });
 }
 
+
+// Add active class to the current button (highlight it)
+var headerBed = document.getElementById("bedDiv");
+var btnsBed = headerBed.getElementsByClassName("bed-btn");
+for (var i = 0; i < btnsBed.length; i++) {
+  btnsBed[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("activeBed");
+  current[0].className = current[0].className.replace(" activeBed", "");
+  this.className += " activeBed";
+  });
+}
+
+// Add active class to the current button (highlight it)
+var headerBath = document.getElementById("bathDiv");
+var btnsBath = headerBath.getElementsByClassName("bath-btn");
+for (var i = 0; i < btnsBed.length; i++) {
+  btnsBath[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("activeBath");
+  current[0].className = current[0].className.replace(" activeBath", "");
+  this.className += " activeBath";
+  });
+}
+
+
+
+
+
+
+//Price Range Options
 
 $(document).ready(function () {
     $(".js-range-slider").ionRangeSlider({

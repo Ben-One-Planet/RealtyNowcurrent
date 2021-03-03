@@ -303,3 +303,49 @@ button {
 .irs-single {
     top: -10px !important;
 }
+
+
+/*****************************Bedrooms and Bathrooms Styling*********************************************************************/
+
+.beds-baths h2 {
+    padding-top: 0;
+}
+
+.subtitle-wrapper {
+    padding: 1rem;
+}
+
+.subtitle-wrapper p {
+    font-family: 'Noto Sans', sans-serif;
+    color: #04813E;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.beds-baths-options {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.bed-btn,
+.bath-btn {
+    font-family: 'Noto Sans', sans-serif;
+    color: #707171;
+    font-size: 1rem;
+    margin: 0 1px;
+    background-color: #FFF;
+    width: 60px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.bed-btn.activeBed {
+    background-color: #04813E;
+    color: #fff;
+}
+
+.bath-btn.activeBath {
+    background-color: #04813E;
+    color: #fff;
+}
