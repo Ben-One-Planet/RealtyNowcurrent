@@ -51,6 +51,35 @@ button {
     width: 80%;
 }
 
+.pill-button-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.pill-button {
+    font-family: 'Noto Sans', sans-serif;
+    color: #707171;
+    font-size: 1rem;
+    background-color: #FFF;
+    width: 88px;
+    height: 32px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 1px solid #707171;
+    margin-left: 21px;
+    margin-right: 21px;
+    display: inline-block;
+}
+
 /*****************************Mobile Top Header Styling*********************************************************************/
 
 
@@ -192,9 +221,17 @@ button {
 
 .type-button-wrapper {
     padding: 1rem 1rem 0 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-line-pack: center;
     align-content: center;
 }
 
@@ -248,8 +285,15 @@ button {
 }
 
 .price-number-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding-top: 0.7rem;
 }
@@ -282,6 +326,7 @@ button {
     background-color: #04813E !important;
     border: none !important;
     background: #04813E !important;
+    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -295,6 +340,7 @@ button {
     border: none !important;
     background-color: #04813E !important;
     background: #04813E !important;
+    -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
 
@@ -323,9 +369,17 @@ button {
 }
 
 .beds-baths-options {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     list-style: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .bed-btn,
@@ -358,29 +412,22 @@ button {
     padding-top: 0;
 }
 
-.pill-button-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 10px;
-}
-
-.pill-button {
-    font-family: 'Noto Sans', sans-serif;
-    color: #707171;
-    font-size: 1rem;
-    background-color: #FFF;
-    width: 88px;
-    height: 32px;
-    font-weight: bold;
-    border-radius: 50px;
-    border: 1px solid #707171;
-    margin-left: 21px;
-    margin-right: 21px;
-    display: inline-block;
-}
-
 .pill-button-found-home.activeFoundHome {
     background-color: #04813E;
     color: #fff;
 }
+
+/*****************************Working with Agent Styling*********************************************************************/
+
+
+.working-with-agent h2 {
+    padding-top: 3rem;
+}
+
+.pill-button-agent.activeAgent {
+    background-color: #04813E;
+    color: #fff;
+}
+
+
+

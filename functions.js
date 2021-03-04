@@ -92,6 +92,17 @@ for (var i = 0; i < btnsFoundHome.length; i++) {
   });
 }
 
+// Add active class to the current button (highlight it)
+var headerAgent = document.getElementById("agentDiv");
+var btnsAgent = headerAgent.getElementsByClassName("pill-button-agent");
+for (var i = 0; i < btnsAgent.length; i++) {
+  btnsAgent[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("activeAgent");
+  current[0].className = current[0].className.replace(" activeAgent", "");
+  this.className += " activeAgent";
+  });
+}
+
 
 
 
