@@ -312,7 +312,7 @@ button {
 }
 
 .subtitle-wrapper {
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 
 .subtitle-wrapper p {
@@ -346,6 +346,41 @@ button {
 }
 
 .bath-btn.activeBath {
+    background-color: #04813E;
+    color: #fff;
+}
+
+
+/*****************************Found a home Styling*********************************************************************/
+
+
+.found-a-home h2 {
+    padding-top: 0;
+}
+
+.pill-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.pill-button {
+    font-family: 'Noto Sans', sans-serif;
+    color: #707171;
+    font-size: 1rem;
+    background-color: #FFF;
+    width: 88px;
+    height: 32px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 1px solid #707171;
+    margin-left: 21px;
+    margin-right: 21px;
+    display: inline-block;
+}
+
+.pill-button-found-home.activeFoundHome {
     background-color: #04813E;
     color: #fff;
 }

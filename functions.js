@@ -73,11 +73,22 @@ for (var i = 0; i < btnsBed.length; i++) {
 // Add active class to the current button (highlight it)
 var headerBath = document.getElementById("bathDiv");
 var btnsBath = headerBath.getElementsByClassName("bath-btn");
-for (var i = 0; i < btnsBed.length; i++) {
+for (var i = 0; i < btnsBath.length; i++) {
   btnsBath[i].addEventListener("click", function() {
   var current = document.getElementsByClassName("activeBath");
   current[0].className = current[0].className.replace(" activeBath", "");
   this.className += " activeBath";
+  });
+}
+
+// Add active class to the current button (highlight it)
+var headerFoundHome = document.getElementById("foundHomeDiv");
+var btnsFoundHome = headerFoundHome.getElementsByClassName("pill-button-found-home");
+for (var i = 0; i < btnsFoundHome.length; i++) {
+  btnsFoundHome[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("activeFoundHome");
+  current[0].className = current[0].className.replace(" activeFoundHome", "");
+  this.className += " activeFoundHome";
   });
 }
 
